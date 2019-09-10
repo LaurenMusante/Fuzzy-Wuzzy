@@ -18,7 +18,7 @@ $(document).ready(function() {
 
     $('form#bear-form').trigger("reset");
     let request = new XMLHttpRequest();
-    const url = 'http://api.giphy.com/v1/gifs/random?api_key=m9fH4jBmiZbnscx9MUlcSn6lXL4ABkMp';
+    const url = 'http://api.giphy.com/v1/gifs/random?api_key=m9fH4jBmiZbnscx9MUlcSn6lXL4ABkMp&tag=kitten';
 
     request.onreadystatechange = function() {
       if (this.readyState === 4 && this.status === 200) {
